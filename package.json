@@ -4,7 +4,9 @@
   "description": "Test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "author": "",
   "license": "ISC",
@@ -23,8 +25,11 @@
         }
       ],
       "@semantic-release/release-notes-generator",
-      "@semantic-release/npm",
       "@semantic-release/github"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stormwarning/test-semantic-release.git"
   }
 }
