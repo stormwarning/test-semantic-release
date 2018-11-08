@@ -12,28 +12,9 @@
   "license": "ISC",
   "devDependencies": {
     "@semantic-release/changelog": "^3.0.1",
-    "@zazen/conventional-changelog": "^1.0.3",
+    "@zazen/conventional-changelog": "^1.0.4",
     "semantic-release": "^15.10.8",
     "travis-deploy-once": "^5.0.9"
-  },
-  "release": {
-    "config": "@zazen/conventional-changelog",
-    "plugins": [
-      [
-        "@semantic-release/commit-analyzer",
-        {
-          "releaseRules": "@zazen/conventional-changelog/lib/release-rules.js"
-        }
-      ],
-      "@semantic-release/release-notes-generator",
-      [
-        "@semantic-release/changelog",
-        {
-          "changelogTitle": "@zazen/conventional-changelog/lib/changelog-title.js"
-        }
-      ],
-      "@semantic-release/github"
-    ]
   },
   "repository": {
     "type": "git",
