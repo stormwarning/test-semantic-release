@@ -17,6 +17,7 @@ module.exports = {
         changelogTitle: changelogTitle,
       },
     ],
+    '@semantic-release/git',
     '@semantic-release/github',
   ],
 }
