@@ -5,4 +5,12 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="1.1.0"></a>
+
+## [1.1.0](https://github.com/stormwarning/test-semantic-release/compare/v1.0.2...v1.1.0) — 2018-11-08
+
+### Added
+
+- 🎁 Add git plugin for semantic-release ([781d353](https://github.com/stormwarning/test-semantic-release/commit/781d353))
+
 <a name=""></a>
