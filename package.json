@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@semantic-release/changelog": "^3.0.1",
     "@zazen/conventional-changelog": "^1.0.3",
     "semantic-release": "^15.10.8",
     "travis-deploy-once": "^5.0.9"
@@ -25,6 +26,12 @@
         }
       ],
       "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/changelog",
+        {
+          "changelogTitle": "@zazen/conventional-changelog/lib/changelog-title.js"
+        }
+      ],
       "@semantic-release/github"
     ]
   },
