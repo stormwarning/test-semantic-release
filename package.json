@@ -17,14 +17,7 @@
   },
   "release": {
     "extends": "@zazen/semantic-release",
-    "plugins": [
-      [
-        "@semantic-release/npm",
-        {
-          "npmPublish": false
-        }
-      ]
-    ]
+    "npmPublish": false
   },
   "repository": {
     "type": "git",
