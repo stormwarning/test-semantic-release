@@ -5,6 +5,16 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="1.3.0"></a>
+
+## [1.3.0](https://github.com/stormwarning/test-semantic-release/compare/v1.2.0...v1.3.0) — 2018-12-14
+
+### Added
+
+- 🎁 Trying new Travis config ([#1](https://github.com/stormwarning/test-semantic-release/issues/1)) ([19a6920](https://github.com/stormwarning/test-semantic-release/commit/19a6920)) \
+  Updates the list of branches to build on, and hopefully only 
+runs semantic-release when updating `master`.
+
 <a name="1.2.0"></a>
 
 ## [1.2.0](https://github.com/stormwarning/test-semantic-release/compare/v1.1.0...v1.2.0) — 2018-11-08
